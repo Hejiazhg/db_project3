@@ -8,7 +8,7 @@
 2. UML.png:  Class Diagram
 3. ERD.png: Entity relationship diagram
 4. customers_definition.json and restaurants_definition: definition for two collections
-5. Project2.restaurants.json, Project2.restaurants.csv, Project2.customers.json, Project2.customers.csv : data exported from compass
+5. Project3.restaurants.json, Project3.restaurants.csv, Project3.customers.json, Project3.customers.csv : data exported from compass
 6. Application folder: all the code of the node applications
 
 ## how to install
