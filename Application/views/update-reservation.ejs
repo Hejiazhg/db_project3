@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Reservation</title>
+</head>
+<body>
+  <h1>Update Reservation</h1>
+  <form action="/update-reservation/<%= reservation.RestaurantID %>/<%= reservation.ReservationID %>" method="post">
+    <label for="RestaurantID">RestaurantID:</label>
+    <input type="text" id="RestaurantID" name="RestaurantID" value="<%= reservation.RestaurantID %>" required><br>
+    <label for="ReservationID">ReservationID:</label>
+    <input type="text" id="ReservationID" name="ReservationID" value="<%= reservation.ReservationID %>" required><br>
+    <label for="Date">Date:</label>
+    <input type="text" id="Date" name="Date" value="<%= reservation.Date %>" required><br>
+    <label for="Time">Time:</label>
+    <input type="text" id="Time" name="Time" value="<%= reservation.Time %>"><br>
+    <label for="CustomerID">CustomerID:</label>
+    <input type="text" id="CustomerID" name="CustomerID" value="<%= reservation.Customer.CustomerID %>"><br>
+
+    <button type="submit">Update</button>
+  </form>
+  <p><a href="/reservations">Back to Reservations</a></p>
+</body>
+</html>

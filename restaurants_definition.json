@@ -1,0 +1,40 @@
+{
+    "RestaurantID": 1,
+    "Name": "Lee Ltd",
+    "Location": "Unit 5196 Box 3034, DPO AP 65654",
+    "CuisineType": "Chinese",
+    "PriceRange": "$",
+    "ContactInfo": "647.745.6154x50558",
+    "Menus": [
+        {
+            "MenuID": 101,
+            "DishName": "right",
+            "Price": 27.94,
+            "Type": "Chinese"
+        },
+        {
+            "MenuID": 102,
+            "DishName": "Gongbaojiding",
+            "Price": 15.32,
+            "Type": "Chinese"
+        }
+    ],
+    "Reservations": [
+        {
+            "ReservationID": 10001,
+            "Date": "2021-02-23",
+            "Time": "00:22:27",
+            "Customer": {
+                "CustomerID": 1001
+            }
+        },
+        {
+            "ReservationID": 10002,
+            "Date": "2022-03-11",
+            "Time": "10:33:33",
+            "Customer": {
+                "CustomerID": 1004
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41743"
+  },
+  "CustomerID": 1001,
+  "Name": "Angela Wheeler",
+  "Email": "crawfordcarl@example.com",
+  "PhoneNumber": "001-383-300-2860x8799"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41744"
+  },
+  "CustomerID": 1002,
+  "Name": "Jennifer Tucker",
+  "Email": "carl31@example.org",
+  "PhoneNumber": "(714)223-7899x444"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41745"
+  },
+  "CustomerID": 1004,
+  "Name": "Courtney Ramirez",
+  "Email": "ellischristine@example.net",
+  "PhoneNumber": "+1-245-944-9136x510"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41746"
+  },
+  "CustomerID": 1003,
+  "Name": "Rebecca Owens",
+  "Email": "rebekah81@example.com",
+  "PhoneNumber": "918.932.6630x7729"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41747"
+  },
+  "CustomerID": 1005,
+  "Name": "Lisa Sandoval",
+  "Email": "sarah62@example.org",
+  "PhoneNumber": "(880)276-1553"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41748"
+  },
+  "CustomerID": 1006,
+  "Name": "Betty Riley",
+  "Email": "debrarodriguez@example.org",
+  "PhoneNumber": "+1-822-693-4797"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf41749"
+  },
+  "CustomerID": 1007,
+  "Name": "Edwin Gross",
+  "Email": "donald15@example.com",
+  "PhoneNumber": "798.668.0867x2328"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf4174a"
+  },
+  "CustomerID": 1008,
+  "Name": "Katherine Evans",
+  "Email": "lisa60@example.net",
+  "PhoneNumber": "719.930.1578"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf4174b"
+  },
+  "CustomerID": 1009,
+  "Name": "Kimberly Bowers",
+  "Email": "robertrivas@example.net",
+  "PhoneNumber": "393.631.4072x22234"
+},
+{
+  "_id": {
+    "$oid": "656022aea623a3e30cf4174c"
+  },
+  "CustomerID": 1010,
+  "Name": "Erica Johnson",
+  "Email": "david27@example.com",
+  "PhoneNumber": "697-423-6777"
+}]

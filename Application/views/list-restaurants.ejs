@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurants Reservation Detail</title>
+</head>
+<body>
+  <h1>Restaurants Reservation Detail</h1>
+  <ul>
+    <% reservations.forEach(reservation => { %>
+        <li>
+            <%= reservation.ReservationID %> - <%= reservation.Date %> - <%= reservation.Time %> - <%= reservation.CustomerID %>
+            <a href="/update-reservation/<%= reservation.RestaurantID %>/<%= reservation.ReservationID %>">Update</a>
+            <a href="/delete-reservation/<%= reservation.RestaurantID %>/<%= reservation.ReservationID %>">Delete</a>
+        </li>
+    <% }) %>
+  </ul>
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
+
+

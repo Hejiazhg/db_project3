@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Restaurant</title>
+</head>
+<body>
+  <h1>Book Restaurant</h1>
+  <form action="/add-reservation" method="post">
+    <label for="RestaurantID">RestaurantID:</label>
+    <input type="text" id="RestaurantID" name="RestaurantID" required><br>
+    <label for="ReservationID">ReservationID:</label>
+    <input type="text" id="ReservationID" name="ReservationID" required><br>
+    <label for="Date">Date:</label>
+    <input type="text" id="Date" name="Date" required><br>
+    <label for="Time">Time:</label>
+    <input type="text" id="Time" name="Time"><br>
+    <label for="CustomerID">CustomerID:</label>
+    <input type="text" id="CustomerID" name="CustomerID"><br>
+    <button type="submit">Add</button>
+  </form>
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
